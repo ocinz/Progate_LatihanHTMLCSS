@@ -1,0 +1,65 @@
+/*CSS for Samsung Galaxy S20*/
+@media (max-width: 400px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  nav h1 {
+    font-size: 30px;
+  }
+  nav ul {
+    display: none;
+  }
+  .jumbotron-A {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+  }
+  .jumbotron-A h2 {
+    font-size: 40px;
+  }
+  .jumbotron-A .dot {
+    height: 12px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+  }
+  .jumbotron-B h3 {
+    font-size: 24px;
+    font-weight: 200;
+  }
+  .jumbotron-B img {
+    height: 150px;
+    width: 150px;
+    padding-bottom: 30px;
+  }
+
+  .contoh {
+    padding: 50px 0;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrap {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  form input,
+  form textarea,
+  form button {
+    min-width: 300px;
+    padding: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer ul {
+    padding: 0;
+  }
+}
